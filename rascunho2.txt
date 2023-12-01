@@ -1,0 +1,35 @@
+<div class="duas-apresentação">
+        <div class="card-apresentação active">
+            <img src="img/perfil-pedro.jpg" alt="" style="width: 100px;" class="imagem-perfil">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi recusandae adipisci cupiditate autem nostrum reiciendis, quos ut pariatur neque ab veniam, delectus eum.</p>
+        </div>
+        <div class="card-apresentação">
+            <img src="img/perfil-pedro.jpg" alt="" style="width: 100px;" class="imagem-perfil">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi recusandae adipisci cupiditate autem nostrum reiciendis, quos ut pariatur neque ab veniam, delectus eum.</p>
+        </div>
+        <div class="card-apresentação">
+            <img src="img/perfil-pedro.jpg" alt="" style="width: 100px;" class="imagem-perfil">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi recusandae adipisci cupiditate autem nostrum reiciendis, quos ut pariatur neque ab veniam, delectus eum.</p>
+        </div>
+    </div>
+
+
+    <div class="cards" >
+        <div class="design-card">
+            <h3>Pedro Bittencourt</h3>
+            <p> Gestor de tráfego e Fotógrafo</p>
+            <a>CEO Bitib - Soluções em Marketing</a>
+        </div>
+
+        <div class="design-card">
+            <h3>Pedro Bittencourt</h3>
+            <p> Gestor de tráfego e Fotógrafo</p>
+            <a>CEO Bitib - Soluções em Marketing</a>
+        </div>
+
+        <div class="design-card">
+            <h3>Pedro Bittencourt</h3>
+            <p> Gestor de tráfego e Fotógrafo</p>
+            <a>CEO Bitib - Soluções em Marketing</a>
+        </div>  
+    </div>
