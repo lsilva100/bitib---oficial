@@ -1,0 +1,498 @@
+
+
+/*----------- INICIO ------------*/
+
+body{
+    background: linear-gradient(200deg, #710025, #51000c);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr{
+  width: 1350px;
+  height: 1px;
+  background-color: white;
+  box-shadow: 0px 5px 20.1px 0px #000;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+  
+a{
+    color: white;
+}
+  
+a:hover{
+    color: black;
+    transition: 0.3s all;
+  }
+  
+#contato-btn{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+#contato-btn:hover{
+    background-color:white;
+    color:#710025;
+  }
+  
+h1{
+    font-size: 56px;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+  
+.body-title p{
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+    margin-top: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.body-title{
+  width: 100%;
+}
+  
+button{
+    display: flex;
+    margin-top: 80px;
+    padding: 15px 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    color: #710025;
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid #000;
+}
+
+button:hover{
+  box-shadow: 0px 10px 20.1px 0px #000;
+}
+
+.equipe{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+/*---------APRESENTAÇÃO-------*/
+
+section{
+    display: flex;
+    margin: 100px;
+  
+}
+
+#sessao1{
+  border:3px solid #000;
+  border-radius: 17px;
+  justify-content: space-evenly;
+  
+}
+
+#sessao1:hover{
+  border:3px solid #000;
+  border-radius: 17px;
+  box-shadow: 0px 0px 20.1px 0px #000;
+  transition: all 0.3s;
+}
+
+
+.card1{
+  width: 100%;
+  text-align: center;
+}
+
+.card1 p{
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+    margin-top: 30px;
+}
+
+.card1 h1{
+  font-size: 40px;
+  line-height: 10px;
+  color: white;
+}
+
+.card1 h2{
+  font-size: 20px;
+  line-height: 10px;
+  color: white;
+  margin-top: 110px;
+}
+
+#imagem_perfil1{
+  border-radius: 30px;
+  width: 500px;
+  height: 100%;
+  border: 2px solid;
+  box-shadow: 0px 0px 10px 0px #262626;
+}
+
+/*------- APRESENTAÇÃO 2 -------*/
+
+section{
+  display: flex;
+  margin: 100px;
+  margin-top: 100px;
+}
+
+#sessao2{
+  border:3px solid #000;
+  border-radius: 17px;
+  direction: rtl;
+  justify-content: space-evenly;
+}
+
+#sessao2:hover{
+  border:3px solid #000;
+  border-radius: 17px;
+  box-shadow: 0px 0px 20.1px 0px #000;
+  direction: rtl;
+  transition: all 0.3s;
+  }
+
+
+.card2{
+  width: 100%;
+  text-align: center;
+}
+
+.card2 p{
+  line-height: 20px;
+  max-width: 500px;
+  color: white;
+  margin-top: 30px;
+}
+
+.card2 h1{
+  font-size: 40px;
+  line-height: 10px;
+  color: white;
+}
+
+.card2 h2{
+  font-size: 20px;
+  line-height: 10px;
+  color: white;
+  margin-top: 110px;
+}
+
+#imagem_perfil2{
+  border-radius: 30px;
+  width: 500px;
+  height: 100%;
+  border: 2px solid;
+  box-shadow: 0px 0px 10px 0px #262626;
+}
+
+/*-------- APRESENTAÇÃO 3 -----------*/
+
+section{
+  display: flex;
+  margin: 100px;
+}
+
+#sessao3{
+  border:3px solid #000;
+  border-radius: 17px;
+  justify-content: space-evenly;
+}
+
+#sessao3:hover{
+  border:3px solid #000;
+  border-radius: 17px;
+  box-shadow: 0px 0px 20.1px 0px #000;
+  transition: all 0.3s;
+}
+
+
+.card3{
+  width: 100%;
+  text-align: center;
+}
+
+.card3 p{
+  line-height: 20px;
+  max-width: 500px;
+  color: white;
+  margin-top: 30px;
+}
+
+.card3 h1{
+  font-size: 40px;
+  line-height: 10px;
+  color: white;
+}
+
+.card3 h2{
+  font-size: 20px;
+  line-height: 10px;
+  color: white;
+  margin-top: 110px;
+}
+
+#imagem_perfil3{
+  border-radius: 30px;
+  width: 500px;
+  height: 100%;
+  border: 2px solid;
+  box-shadow: 0px 0px 10px 0px #262626;
+}
+
+/*------SERVICOS--------*/
+
+#servicos{
+  justify-content: space-around;
+}
+
+.conjunto-cards {
+  justify-content: space-around;
+  display: flex;
+  
+}
+
+.imagem-cards1{
+display: flex;
+width: 300px;
+height: 300px;
+}
+
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(-45deg, #662727 0%, #f1f1f1 100% );
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  margin: 10px;
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover {
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.card:hover svg {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+
+
+/*-----------Footer-------*/
+
+footer {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer1{
+  border: 3px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px;
+  text-align: center;
+}
+
+.footer1 h1{
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  word-break: break-all;
+}
+
+footer p{
+  margin-top: 30px;
+  color: white;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-single {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input[id="mensagem"]{
+  height: 100px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #000
+}
+
+.input-single label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #110d0d;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+
+.input:focus + label,
+.input:not(:placeholder-shown) + label {
+
+  font-size: 15px;
+  color:grey;
+}
+
+.input:focus + label,
+.input:not(:placeholder-shown) + label:active {
+  display: none;
+ 
+}
+
+.btn {
+  margin-top: 20px;
+  text-align: start;
+  width: 100px;
+}
+
+.btn input[type="submit"] {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #710025;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+
+.btn input[type="submit"]:hover {
+  background-color: #710025;
+}
+
+
+.mapBox{
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  margin-right: 25px;
+  border: 3px solid #000;
+}
+
+.mapBox iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/*--------------WHATSAPP BUTTON----------------*/
+
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  z-index: 999;
+}
+
+.whatsapp-button img {
+  width: 100px; /* Tamanho do ícone do WhatsApp */
+  height: 100px;
+  border-radius: 50%;
+  background-color: #25d366; /* Cor de fundo do botão */
+  padding: 20px; /* Espaçamento interno */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+  cursor: pointer;
+}
+
+.whatsapp-button img:hover {
+  background-color: #128c7e; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+
+
